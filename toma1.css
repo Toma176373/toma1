@@ -1,0 +1,15 @@
+/* body background color */
+body {
+    background-color: #dddddd;
+}
+
+/* 3 div with background color */
+#div1 {
+    background-color: #ff0000;
+}
+#div2 {
+    background-color: #00ff00;
+}
+#div3 {
+    background-color: #0000ff;
+}
