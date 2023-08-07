@@ -1,7 +1,7 @@
 /* function named toma1 */
 
 function toma1() {
-	var t1l = getElementById("toma1list").value;
-	var t1d = getElementById("toma1div").value;
-	getElementbyId(t1d).style.t1l = getElementbyId(toma1color).value;
+	var t1l = document.getElementById("toma1list").value;
+	var t1d = document.getElementById("toma1div").value;
+	document.getElementbyId(t1d).style.t1l = document.getElementbyId(toma1color).value;
 }
