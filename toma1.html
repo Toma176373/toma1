@@ -12,20 +12,23 @@
 <p id="toma1">In the list select the element, the text field input the value to set.</p>
 <!-- a list with background, font, a list with 3 divs, a text field, a button -->
 <div id="toma1">
+    <label for="toma1list">Select property to change:</label>
     <select id="toma1list">
-	<option value="background-color">background</option>
+	<option value="background" selected>background</option>
 	<option value="color">font</option>
     </select>
     <br />
+    <label for="toma1div">Select element to change:</label>
     <select id="toma1div">
 	<option value="div1">div1</option>
-	<option value="div2">div2</option>
+	<option value="div2" selected>div2</option>
 	<option value="div3">div3</option>
     </select>
     <br />
+    <label for="toma1color">Set color value:</label>
     <input type="text" id="toma1color" placeholder="#ffffff">
     <br />
-    <button onclick="toma1()">set</button>
+    <button onclick="toma1()">ready, set, go</button>
     <br /><br />
     <div width="30%" height="100px" id="div1">Toma1</div>
     <div width="30%" height="100px" id="div2">Toma2</div>
